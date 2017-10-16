@@ -1,0 +1,13 @@
+---
+name: jupytr
+
+templates: 
+  ctl.erb: bin/ctl
+
+packages:
+  - anaconda
+
+properties: 
+  web_ui.port:
+    description: "Port to listen on"
+    default: 8888

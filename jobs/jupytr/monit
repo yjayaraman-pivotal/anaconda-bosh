@@ -1,0 +1,5 @@
+check process jupytr
+  matching "python"
+  start program "/var/vcap/jobs/jupytr/bin/ctl start"
+  stop program "/var/vcap/jobs/jupytr/bin/ctl stop"
+  group vcap

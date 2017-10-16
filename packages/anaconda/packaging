@@ -1,0 +1,3 @@
+set -e -x
+
+bash $BOSH_COMPILE_TARGET/Anaconda3-4.4.0-Linux-x86_64.sh -b -p $BOSH_INSTALL_TARGET/anaconda
