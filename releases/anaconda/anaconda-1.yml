@@ -1,0 +1,15 @@
+name: anaconda
+version: "1"
+commit_hash: 15927ba
+uncommitted_changes: false
+jobs:
+- name: jupytr
+  version: 4659ff59421c1e0ede3059b277d4e43b64842ef6
+  fingerprint: 4659ff59421c1e0ede3059b277d4e43b64842ef6
+  sha1: 93a32b5c5925a41fcc60edc9ef85b0f7c7ed4199
+packages:
+- name: anaconda
+  version: c1872023e336fc74fb753cc2b3286826440ce3ef
+  fingerprint: c1872023e336fc74fb753cc2b3286826440ce3ef
+  sha1: 4f8eec5bef4ee7a4fe3d87b5a1293ca3a78d0bbb
+  dependencies: []
